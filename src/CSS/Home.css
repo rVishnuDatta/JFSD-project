@@ -1,0 +1,88 @@
+/* Container for image and form */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #A5B68D; /* Light green background */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  box-sizing: border-box; /* Ensures padding doesn't affect overall dimensions */
+}
+
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 90%; /* Adjust the size as per need */
+    border-radius: 10px;
+  }
+  
+  .form-section {
+    flex: 1;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-toggle {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button.active {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  button.inactive {
+    background-color: #d5dabd;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 20px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+  }
+
+
+ 
+  button[type="submit"] {
+    background-color: #ccc;
+    color: #000;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 15px;
+    align-self: center; /* Centers the button in its parent container */
+}
+  
+  

@@ -1,0 +1,174 @@
+/* Container */
+.user-profile-container {
+  background-color: #fff3f3; /* Matching your color palette */
+  padding: 20px;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Banner Image */
+.banner-image {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden; /* Ensures no overflow outside the container */
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -50px;
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic-container {
+  position: relative;
+  margin-left: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds dimension */
+  object-fit: cover;
+}
+
+.user-details {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.user-details h2 {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.username {
+  color: gray;
+  margin-top: -5px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.edit-btn {
+  background-color: #f7c1c1;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-btn:hover {
+  background-color: #f5a5a5; /* Slightly darker shade for hover effect */
+  transform: translateY(-2px);
+}
+
+/* User Stats */
+.user-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.stat-item {
+  background-color: #fdeaea; /* Lightened shade for card */
+  padding: 15px;
+  border-radius: 10px;
+  width: 120px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.stat-item span {
+  display: block;
+  margin-top: 5px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* User Actions */
+.user-actions {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.action-item {
+  background-color: #fdeaea; /* Lightened shade for card */
+  padding: 15px;
+  border-radius: 10px;
+  width: 120px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.action-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.action-item button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.action-item button:hover {
+  color: #e57373; /* Slightly darker red for hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .user-details {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .user-stats,
+  .user-actions {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .stat-item,
+  .action-item {
+    width: 80%;
+    margin: auto;
+  }
+}

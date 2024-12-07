@@ -1,0 +1,168 @@
+  /* General Styling for Posts and Offerings Section */
+  .scrollable {
+    overflow-y: auto;
+    max-height: calc(100vh - 150px); /* Adjust based on navbar and header height */
+    padding: 20px;
+  }
+
+  /* .user-header{
+    margin-top:3rem;
+    
+  } */
+/*  
+//post section
+  .posts-section {
+    background-color: #E7CCCC;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .post-card {
+    background-color: #C1CFA1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .post-details h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .post-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .post-image {
+    width: 100%;
+    max-height: 300px; //Limit image height
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+  }*/
+
+  /* Posts Section */
+.posts-section {
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Individual Post Card */
+.post-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+/* Post Header (Profile Picture + Username) */
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.post-header p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Post Details */
+.post-details h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.post-details p {
+  font-size: 14px;
+  color: #666;
+  margin: 6px 0;
+}
+
+/* Post Image */
+.post-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* For the "Active" and "Like Count" sections */
+.post-details strong {
+  font-weight: 700;
+  color: #333;
+}
+
+
+  .post-request {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  } */
+
+  /* Offerings Section */
+  .offerings-section {
+    background-color: #C1CFA1;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .offerings-section h2,
+  .posts-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  /* General Styling for Scrollbars */
+  .scrollable::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .scrollable::-webkit-scrollbar-thumb {
+    background-color: #a5b68d;
+    border-radius: 4px;
+  }
+
+  .scrollable::-webkit-scrollbar-track {
+    background-color: #e7e5e3;
+  }
